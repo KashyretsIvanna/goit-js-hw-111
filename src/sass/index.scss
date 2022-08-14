@@ -1,0 +1,81 @@
+@import './common';
+@import './example';
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.search-form {
+  display: flex;
+  background-color: blue;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 40px;
+  box-shadow: 3px 5px 10px black;
+}
+
+button {
+  border: none;
+  background-color: lightblue;
+}
+
+.gallery {
+  margin-top: 100px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.photo-card {
+  margin-top: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 3px 5px 10px black;
+}
+.web-img {
+  height: 200px;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.info-item {
+  width: 75px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+b{
+  display: block;
+  width: 100%;
+  font-size: 10px;
+}
+
+.info-item div {
+  display: block;
+  width: 100%;
+  font-size: 10px;
+}
+
+.lightbox {
+  background-color: rgba(0, 0, 0, 0.568);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  left: 0px;
+}
+
+

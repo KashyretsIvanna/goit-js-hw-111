@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://zadandrot.github.io/goit-js-hw-111",
+  "homepage": "https://KashyretsIvanna.github.io/goit-js-hw-111",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-111/"
